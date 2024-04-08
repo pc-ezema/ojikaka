@@ -1,0 +1,25 @@
+.fl-row.bb-css-grid.bb-flexbox > .fl-row-content-wrap > .fl-row-content,
+.fl-col.bb-css-grid.bb-flexbox > .fl-col-content {
+	display:block;
+}
+.bb-flexbox.fl-row > .fl-row-content-wrap > .fl-row-content::before,
+.bb-flexbox.fl-row > .fl-row-content-wrap > .fl-row-content::after {
+	content:none;
+}
+.fl-col-group-equal-height .bb-flexbox > .fl-col-content {
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.fl-col-group-equal-height.fl-col-group-align-top .bb-flexbox > .fl-col-content {
+	align-content: flex-start;
+	-webkit-align-content: flex-start;
+}
+.fl-col-group-equal-height.fl-col-group-align-center .bb-flexbox > .fl-col-content {
+	align-content: center;
+	-webkit-align-content: center;
+}
+.fl-col-group-equal-height.fl-col-group-align-bottom .bb-flexbox > .fl-col-content {
+	align-content: flex-end;
+	-webkit-align-content: flex-end;
+}

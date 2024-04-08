@@ -1,0 +1,227 @@
+/*======================================
+Theme Name: Premier Support Services
+Description: Child Theme based on Extra
+Author: Kelvin Sprague
+Version: 0.0.2
+Template: Extra
+======================================*/
+
+@import url('../Extra/style.css');
+
+body.custom-background {
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-position: right bottom !important;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {text-transform: none !important; letter-spacing: 0;}
+.author-box {display:none;}
+.intro {font-size: 1.6em; text-align: right; line-height: 1.6em;}
+.job-title {font-size: 1.2em; text-align: right; line-height: 1.2em;}
+#post-223 .post-wrap > h1:nth-child(1) {font-size: 32px; color: #042657; padding-top: 40px; padding-bottom: 0px;}
+.et_pb_section {padding: 0px;}
+#main-header {border-bottom: 8px #EDCD04 solid; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);}
+.paginated_page h1, .paginated_page h2, .paginated_page h3, .paginated_page h4, .paginated_page h5, .paginated_page h6, .paginated_page h1 a, .paginated_page h2 a, .paginated_page h3 a, .paginated_page h4 a, .paginated_page h5 a, .paginated_page h6 a {padding-top: 20px !important;}
+#et-navigation li a {padding: 10px 0;}
+.nav li li {line-height: 1.5em;}
+.nav li ul {padding: 10px 0;}
+a {font-weight: bold;}
+
+.post-header > h1:nth-child(1) {position: relative; left: -70px; display; block; float: left; text-align: left; background: #04224e !important; color: #ffffff !important; padding: 0px 0px 0px 50px; height: 60px; line-height: 60px;}
+#phone, #phone a {color: #ffffff; font-size: 16px; font-weight: 600;}
+#phone a:hover {color: #edcd04;}
+.et_pb_widget .widgettitle {background: #04224e none repeat scroll 0% 0%;}
+
+#breadcrumbs {padding: 40px 0 0 0;}
+
+.category-professional-cleaning .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Cleaning-Circle.html") !important; background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-professional-cleaning .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #00b1eb !important; color: #00b1eb !important; content: "."; margin-left: 20px; height: 100%;}
+.category-professional-cleaning .post-header h1,
+.category-professional-cleaning h1,
+.category-professional-cleaning h2,
+.category-professional-cleaning h3,
+.category-professional-cleaning h4,
+.category-professional-cleaning h5,
+.category-professional-cleaning h6 {color: #00b1eb;}
+.category-professional-cleaning a.read-more-button:hover {background: #00b1eb !important;}
+.single-professional-cleaning blockquote {border-left: 5px solid #00b1eb;}
+.category-professional-cleaning #main-header, .single-professional-cleaning #main-header {border-bottom: 8px #00b1eb solid !important;}
+
+.category-building-maintenance .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Building-Maintenance-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-building-maintenance .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #f39200 !important; color: #f39200 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-building-maintenance .post-header h1,
+.category-building-maintenance h1,
+.category-building-maintenance h2,
+.category-building-maintenance h3,
+.category-building-maintenance h4,
+.category-building-maintenance h5,
+.category-building-maintenance h6 {color: #f39200;}
+.category-building-maintenance a.read-more-button:hover {background: #f39200 !important;}
+.single-building-maintenance blockquote {border-left: 5px solid #f39200;}
+.category-building-maintenance #main-header, .single-building-maintenance #main-header  {border-bottom: 8px #f39200 solid !important;}
+
+.category-catering-vending .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Catering-Vending-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-catering-vending .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #ce1d19 !important; color: #ce1d19 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-catering-vending .post-header h1,
+.category-catering-vending h1,
+.category-catering-vending h2, 
+.category-catering-vending h3, 
+.category-catering-vending h4, 
+.category-catering-vending h5, 
+.category-catering-vending h6 {color: #ce1d19;}
+.category-catering-vending a.read-more-button:hover {background: #ce1d19 !important;}
+.single-catering-vending blockquote {border-left: 5px solid #ce1d19;}
+.category-catering-vending #main-header, .single-catering-vending #main-header {border-bottom: 8px #ce1d19 solid !important;}
+
+.category-news .post-header > h1:nth-child(1):before, .category-case-studies .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/news-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-news .post-header > h1:nth-child(1):after, .category-case-studies .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #005693 !important; color: #005693 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-news .post-header h1, .category-case-studies .post-header h1,
+.category-news h1, .category-case-studies h1, 
+.category-news h2, .category-case-studies h2, 
+.category-news h3, .category-case-studies h3,
+.category-news h4, .category-case-studies h4, 
+.category-news h5, .category-case-studies h5,
+.category-news h6, .category-case-studies h6 {color: #005693;}
+.category-news a.read-more-button:hover, .category-case-studies a.read-more-button:hover {background: #005693 !important;}
+.single-news blockquote, .single-case-studies blockquote {border-left: 5px solid #005693;}
+.category-news #main-header, .single-news #main-header, .category-case-studies #main-header, .single-case-studies #main-header {border-bottom: 8px #005693 solid !important;}
+
+.category-our-commitments .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Total-Facilities-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-our-commitments .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #042b60 !important; color: #042b60 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-our-commitments .post-header h1, 
+.category-our-commitments h1, 
+.category-our-commitments h2, 
+.category-our-commitments h3, 
+.category-our-commitments h4, 
+.category-our-commitments h5, 
+.category-our-commitments h6 {color: #042b60;}
+.category-our-commitments a.read-more-button:hover {background: #042b60 !important;}
+.single-our-commitments blockquote {border-left: 5px solid #042b60;}
+.category-our-commitments #main-header, .single-commitments #main-header {border-bottom: 8px #042b60 solid !important;}
+
+.category-security-services .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Security-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-security-services .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #94c23e !important; color: #94c23e !important; content: "."; margin-left: 20px; height: 100%;}
+.category-security-services .post-header h1, 
+.category-security-services h1, 
+.category-security-services h2, 
+.category-security-services h3, 
+.category-security-services h4, 
+.category-security-services h5, 
+.category-security-services h6 {color: #94c23e;}
+.category-security-services a.read-more-button:hover {background: #94c23e !important;}
+.single-security-services blockquote {border-left: 5px solid #94c23e;}
+.category-security-services #main-header, .single-security-services #main-header {border-bottom: 8px #94c23e solid !important;}
+
+.category-total-facilities .post-header > h1:nth-child(1):before, .category-vacancies .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Total-Facilities-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-total-facilities .post-header > h1:nth-child(1):after, .category-vacancies .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #edcd04 !important; color: #edcd04 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-total-facilities .post-header h1, .category-vacancies .post-header h1,
+.category-total-facilities h1, .category-vacancies h1, 
+.category-total-facilities h2, .category-vacancies h2, 
+.category-total-facilities h3, .category-vacancies h3, 
+.category-total-facilities h4, .category-vacancies h4, 
+.category-total-facilities h5, .category-vacancies h5, 
+.category-total-facilities h6, .category-vacancies h6 {color: #edcd04;}
+.category-total-facilities a.read-more-button:hover {background: #edcd04 !important;}
+.single-total-facilities blockquote {border-left: 5px solid #edcd04;}
+.category-total-facilities #main-header, .single-total-facilities #main-header {border-bottom: 8px #edcd04 solid !important;}
+
+.category-washroom-janitorial .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Washroom-Janitorial-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-washroom-janitorial .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #1471b8 !important; color: #1471b8 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-washroom-janitorial .post-header h1, 
+.category-washroom-janitorial h1, 
+.category-washroom-janitorial h2, 
+.category-washroom-janitorial h3, 
+.category-washroom-janitorial h4, 
+.category-washroom-janitorial h5, 
+.category-washroom-janitorial h6 {color: #1471b8;}
+.category-washroom-janitorial a.read-more-button:hover {background: #1471b8 !important;}
+.single-washroom-janitorial blockquote {border-left: 5px solid #1471b8;}
+.category-washroom-janitorial #main-header, .single-washroom-janitorial #main-header {border-bottom: 8px #1471b8 solid;}
+
+.category-window-doors .post-header > h1:nth-child(1):before {display:inline-block; content:"."; width: 60px; background-image: url("../../../identity-cms/wp-content/uploads/2016/01/Windows-Doors-Circle.html"); background-repeat: no-repeat; background-position: 0% 50%; color: #04224e;}
+.category-window-doors .post-header > h1:nth-child(1):after {display:inline-block; width: 10px; background-color: #662383 !important; color: #662383 !important; content: "."; margin-left: 20px; height: 100%;}
+.category-window-doors .post-header h1, 
+.category-window-doors h1, 
+.category-window-doors h2, 
+.category-window-doors h3,
+.category-window-doors h4,
+.category-window-doors h5,
+.category-window-doors h6 {color: #662383;}
+.category-window-doors a.read-more-button:hover {background: #662383 !important;}
+.category-window-doors a.read-more-button:hover {background: #662383, color: #fff;}
+.single-window-doors blockquote {border-left: 5px solid #662383;}
+.category-window-doors #main-header, .single-window-doors #main-header {border-bottom: 8px #662383 solid;}
+
+#client-logos .et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {padding: 180px 0px 40px !important;}
+.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {padding:380px 0 40px 0 !important; width: 100%; margin: 0;}
+.et_pb_slide_description .et_pb_slide_title {background: rgba(4, 38, 87, 0.8); font-size: 28px; margin-top: 0px; font-weight: 600; color: #acb4d1 !important;}
+.et_pb_slide {padding:0;}
+
+.category .et_pb_extra_column_main h1:first-child {display:none;}
+.category_description {padding: 20px; background:#ffffff; margin: 20px 0 20px 0;}
+.related-posts-header h3 {display:none;}
+.related-posts-header {padding: 20px; font-size: 1.4em; font-weight: bold; display: block;}
+.single-services .related-posts-header:after {content:"Related Services";}
+.single-vacancies .related-posts-header:after {content:"Related Vacancies";}
+.single-news .related-posts-header:after {content:"Latest News Articles";}
+.single-case-studies .related-posts-header:after {content:"Related Case Studies";}
+
+@media (min-width: 700px) {
+.category .post, .et_extra_layout .masonry .post {min-height: 500px;}
+.et_pb_extra_module .main-post article .header, .et_extra_other_module .main-post article .header {max-height: 160px; overflow: hidden;}
+}
+
+.pis-title-link {font-size:1.4em !important;}
+.pis-more {display: flex; background-color: #04224E; color: #FFF !important; padding: 10px 12px; outline: medium none; display: inline-block; padding: 10px 12px; border: 0px solid #FFF; border-radius: 3px; box-shadow: none; font-family: inherit; font-size: inherit; font-weight: 600; line-height: normal; text-shadow: none; text-transform: uppercase; cursor: pointer; transition: all 0.3s ease 0s;}
+.pis-more:hover {background:#EDCD04; color: #04224E;}
+.pis-more a {color: #fff !important;}
+.pis-thumbnail-img {margin-bottom: 20px;}
+
+.et_pb_contact_right {position:relative; top:20px;}
+
+.mc4wp-form-fields input {float:right; width:100%; margin-bottom: 10px;}
+#text-2 .textwidget {padding-top:0 !important; margin-top:0 !important;}
+.mc4wp-form-fields input[type="submit"] {margin-bottom:20px;}
+.et_pb_login_form p, .et_pb_newsletter_description {color: #042657 !important;}
+
+.accreditations {box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); background: #ffffff; padding: 10px; border-radius: 3px; margin: 0; display: none !important;}
+
+#footer {background: #04224E none repeat scroll 0% 0%; border-top: 2px solid #fff;}
+.et_pb_testimonial.clearfix::before {background: #00B1EB; clear: both; display: block; width: 30px; height: 30px; overflow: visible; visibility: visible;}
+
+#footer .et_pb_widget.widget_text .textwidget {padding: 20px; line-height: 1.3em; font-size: 2em; text-align: center; color: #fff; font-weight: bold;}
+#footer .foot-tel {color: #EDCD04;}
+#footer #text-4 {margin:0; padding:0;}
+
+.read-more-button {color: #ffffff !important;}
+
+@supports (-ms-accelerator:true) {
+  .category_description {display:none;}
+  #logo {width: 117px !important; height:100% !important; width:100% !important;}
+  .et-fixed-header #logo {width: 99px !important; width:100% !important;}
+}
+
+.et-extra-header {
+	
+}
+
+.et-extra-header li {
+	margin:0 10px;
+}
+
+.et-extra-header li a {
+	background: #00b1eb;
+	color: #ffffff;
+	padding: 5px 10px;
+    font-size: 0.8em;
+}
+
+#et-navigation .et-extra-header li a {
+	padding: 10px;
+	color: #ffffff;
+}
+
+#et-mobile-navigation nav {
+    z-index: 99;
+}
